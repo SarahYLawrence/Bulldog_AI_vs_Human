@@ -1,0 +1,690 @@
+1. The transcript from Step 4: (FifteenPlayer and a WimpPlayer)
+Enter the number of players: 2
+Enter name for player 1: Player1
+Choose player type (HumanPlayer, RandomPlayer, FifteenPlayer, UniquePlayer, WimpPlayer): FifteenPlayer
+Enter name for player 2: Player2
+Choose player type (HumanPlayer, RandomPlayer, FifteenPlayer, UniquePlayer, WimpPlayer): WimpPlayer
+
+Player1's turn:
+Player1 rolled: 2
+Current turn score: 2
+Player1 rolled: 6
+Rolled a 6! Turn over with 0 points.
+Player1's total score: 0
+
+Player2's turn:
+   Player Player2 rolled 5 and chose not to continue, scoring 5 for the turn.
+Player2's total score: 5
+
+Player1's turn:
+Player1 rolled: 5
+Current turn score: 5
+Player1 rolled: 2
+Current turn score: 7
+Player1 rolled: 6
+Rolled a 6! Turn over with 0 points.
+Player1's total score: 0
+
+Player2's turn:
+   Player Player2 rolled 6 and scored 0 for the turn.
+Player2's total score: 5
+
+Player1's turn:
+Player1 rolled: 6
+Rolled a 6! Turn over with 0 points.
+Player1's total score: 0
+
+Player2's turn:
+   Player Player2 rolled 5 and chose not to continue, scoring 5 for the turn.
+Player2's total score: 10
+
+Player1's turn:
+Player1 rolled: 3
+Current turn score: 3
+Player1 rolled: 3
+Current turn score: 6
+Player1 rolled: 2
+Current turn score: 8
+Player1 rolled: 6
+Rolled a 6! Turn over with 0 points.
+Player1's total score: 0
+
+Player2's turn:
+   Player Player2 rolled 1 and chose not to continue, scoring 1 for the turn.
+Player2's total score: 11
+
+Player1's turn:
+Player1 rolled: 4
+Current turn score: 4
+Player1 rolled: 2
+Current turn score: 6
+Player1 rolled: 3
+Current turn score: 9
+Player1 rolled: 1
+Current turn score: 10
+Player1 rolled: 1
+Current turn score: 11
+Player1 rolled: 2
+Current turn score: 13
+Player1 rolled: 5
+Current turn score: 18
+Player1 ends turn with score: 18
+Player1's total score: 18
+
+Player2's turn:
+   Player Player2 rolled 6 and scored 0 for the turn.
+Player2's total score: 11
+
+Player1's turn:
+Player1 rolled: 6
+Rolled a 6! Turn over with 0 points.
+Player1's total score: 18
+
+Player2's turn:
+   Player Player2 rolled 5 and chose not to continue, scoring 5 for the turn.
+Player2's total score: 16
+
+Player1's turn:
+Player1 rolled: 4
+Current turn score: 4
+Player1 rolled: 2
+Current turn score: 6
+Player1 rolled: 3
+Current turn score: 9
+Player1 rolled: 3
+Current turn score: 12
+Player1 rolled: 6
+Rolled a 6! Turn over with 0 points.
+Player1's total score: 18
+
+Player2's turn:
+   Player Player2 rolled 5 and chose not to continue, scoring 5 for the turn.
+Player2's total score: 21
+
+Player1's turn:
+Player1 rolled: 4
+Current turn score: 4
+Player1 rolled: 6
+Rolled a 6! Turn over with 0 points.
+Player1's total score: 18
+
+Player2's turn:
+   Player Player2 rolled 4 and chose not to continue, scoring 4 for the turn.
+Player2's total score: 25
+
+Player1's turn:
+Player1 rolled: 3
+Current turn score: 3
+Player1 rolled: 1
+Current turn score: 4
+Player1 rolled: 1
+Current turn score: 5
+Player1 rolled: 6
+Rolled a 6! Turn over with 0 points.
+Player1's total score: 18
+
+Player2's turn:
+   Player Player2 rolled 2 and chose not to continue, scoring 2 for the turn.
+Player2's total score: 27
+
+Player1's turn:
+Player1 rolled: 3
+Current turn score: 3
+Player1 rolled: 1
+Current turn score: 4
+Player1 rolled: 2
+Current turn score: 6
+Player1 rolled: 6
+Rolled a 6! Turn over with 0 points.
+Player1's total score: 18
+
+Player2's turn:
+   Player Player2 rolled 6 and scored 0 for the turn.
+Player2's total score: 27
+
+Player1's turn:
+Player1 rolled: 1
+Current turn score: 1
+Player1 rolled: 3
+Current turn score: 4
+Player1 rolled: 3
+Current turn score: 7
+Player1 rolled: 3
+Current turn score: 10
+Player1 rolled: 5
+Current turn score: 15
+Player1 ends turn with score: 15
+Player1's total score: 33
+
+Player2's turn:
+   Player Player2 rolled 4 and chose not to continue, scoring 4 for the turn.
+Player2's total score: 31
+
+Player1's turn:
+Player1 rolled: 4
+Current turn score: 4
+Player1 rolled: 1
+Current turn score: 5
+Player1 rolled: 1
+Current turn score: 6
+Player1 rolled: 3
+Current turn score: 9
+Player1 rolled: 4
+Current turn score: 13
+Player1 rolled: 5
+Current turn score: 18
+Player1 ends turn with score: 18
+Player1's total score: 51
+
+Player2's turn:
+   Player Player2 rolled 4 and chose not to continue, scoring 4 for the turn.
+Player2's total score: 35
+
+Player1's turn:
+Player1 rolled: 3
+Current turn score: 3
+Player1 rolled: 4
+Current turn score: 7
+Player1 rolled: 4
+Current turn score: 11
+Player1 rolled: 1
+Current turn score: 12
+Player1 rolled: 2
+Current turn score: 14
+Player1 rolled: 2
+Current turn score: 16
+Player1 ends turn with score: 16
+Player1's total score: 67
+
+Player2's turn:
+   Player Player2 rolled 5 and chose not to continue, scoring 5 for the turn.
+Player2's total score: 40
+
+Player1's turn:
+Player1 rolled: 2
+Current turn score: 2
+Player1 rolled: 3
+Current turn score: 5
+Player1 rolled: 2
+Current turn score: 7
+Player1 rolled: 5
+Current turn score: 12
+Player1 rolled: 6
+Rolled a 6! Turn over with 0 points.
+Player1's total score: 67
+
+Player2's turn:
+   Player Player2 rolled 2 and chose not to continue, scoring 2 for the turn.
+Player2's total score: 42
+
+Player1's turn:
+Player1 rolled: 1
+Current turn score: 1
+Player1 rolled: 5
+Current turn score: 6
+Player1 rolled: 6
+Rolled a 6! Turn over with 0 points.
+Player1's total score: 67
+
+Player2's turn:
+   Player Player2 rolled 1 and chose not to continue, scoring 1 for the turn.
+Player2's total score: 43
+
+Player1's turn:
+Player1 rolled: 4
+Current turn score: 4
+Player1 rolled: 1
+Current turn score: 5
+Player1 rolled: 4
+Current turn score: 9
+Player1 rolled: 1
+Current turn score: 10
+Player1 rolled: 1
+Current turn score: 11
+Player1 rolled: 6
+Rolled a 6! Turn over with 0 points.
+Player1's total score: 67
+
+Player2's turn:
+   Player Player2 rolled 1 and chose not to continue, scoring 1 for the turn.
+Player2's total score: 44
+
+Player1's turn:
+Player1 rolled: 3
+Current turn score: 3
+Player1 rolled: 6
+Rolled a 6! Turn over with 0 points.
+Player1's total score: 67
+
+Player2's turn:
+   Player Player2 rolled 6 and scored 0 for the turn.
+Player2's total score: 44
+
+Player1's turn:
+Player1 rolled: 6
+Rolled a 6! Turn over with 0 points.
+Player1's total score: 67
+
+Player2's turn:
+   Player Player2 rolled 2 and chose not to continue, scoring 2 for the turn.
+Player2's total score: 46
+
+Player1's turn:
+Player1 rolled: 5
+Current turn score: 5
+Player1 rolled: 4
+Current turn score: 9
+Player1 rolled: 2
+Current turn score: 11
+Player1 rolled: 5
+Current turn score: 16
+Player1 ends turn with score: 16
+Player1's total score: 83
+
+Player2's turn:
+   Player Player2 rolled 5 and chose not to continue, scoring 5 for the turn.
+Player2's total score: 51
+
+Player1's turn:
+Player1 rolled: 1
+Current turn score: 1
+Player1 rolled: 5
+Current turn score: 6
+Player1 rolled: 1
+Current turn score: 7
+Player1 rolled: 5
+Current turn score: 12
+Player1 rolled: 5
+Current turn score: 17
+Player1 ends turn with score: 17
+Player1's total score: 100
+
+Player2's turn:
+   Player Player2 rolled 4 and chose not to continue, scoring 4 for the turn.
+Player2's total score: 55
+
+Player1's turn:
+Player1 rolled: 4
+Current turn score: 4
+Player1 rolled: 4
+Current turn score: 8
+Player1 rolled: 5
+Current turn score: 13
+Player1 rolled: 2
+Current turn score: 15
+Player1 ends turn with score: 15
+Player1's total score: 115
+Player1 wins the game with 115 points!
+
+
+2. The transcript from Step 6: (Sarahs UniquePlayer vs AI UniquePlayer)
+Enter the number of players: 2
+Enter name for player 1: OG
+Choose player type (HumanPlayer, RandomPlayer, FifteenPlayer, UniquePlayer, WimpPlayer, UniquePlayerOG): UniquePlayerOG
+Enter name for player 2: AI
+Choose player type (HumanPlayer, RandomPlayer, FifteenPlayer, UniquePlayer, WimpPlayer, UniquePlayerOG): UniquePlayer
+
+OG's turn:
+   Player OG a coin has been fliped you got heads and rolled a 4. They have chosen not to continue, scoring 4 for the turn.
+OG's total score: 4
+
+AI's turn:
+AI rolled: 6
+Rolled a 6! Turn over with 0 points.
+AI's total score: 0
+
+OG's turn:
+   Player OG a coin has been fliped you got heads and rolled a 4. They have chosen not to continue, scoring 4 for the turn.
+OG's total score: 8
+
+AI's turn:
+AI rolled: 2
+Current turn score: 2
+AI rolled: 3
+Current turn score: 5
+AI rolled: 6
+Rolled a 6! Turn over with 0 points.
+AI's total score: 0
+
+OG's turn:
+   Player OG a coin has been fliped you got heads and rolled a 6. They have scored 0 for the turn.
+OG's total score: 8
+
+AI's turn:
+AI rolled: 5
+Current turn score: 5
+AI rolled: 1
+Current turn score: 6
+AI rolled: 1
+Current turn score: 7
+AI rolled: 1
+Current turn score: 8
+AI rolled: 2
+Current turn score: 10
+AI ends turn with score: 10
+AI's total score: 10
+
+OG's turn:
+   Player OG a coin has been fliped you got heads and rolled a 4. They have chosen not to continue, scoring 4 for the turn.
+OG's total score: 12
+
+AI's turn:
+AI rolled: 4
+Current turn score: 4
+AI rolled: 6
+Rolled a 6! Turn over with 0 points.
+AI's total score: 10
+
+OG's turn:
+   Player OG a coin has been fliped you got tails and rolled a 2. They have chosen to continue, the roll 2 will be add makeing their total 
+   Player OG a coin has been fliped you got tails and rolled a 2. They have chosen to continue, the roll 2 will be add makeing their total 
+   Player OG a coin has been fliped you got heads and rolled a 6. They have scored 0 for the turn.
+OG's total score: 12
+
+AI's turn:
+AI rolled: 4
+Current turn score: 4
+AI rolled: 3
+Current turn score: 7
+AI rolled: 3
+Current turn score: 10
+AI ends turn with score: 10
+AI's total score: 20
+
+OG's turn:
+   Player OG a coin has been fliped you got tails and rolled a 3. They have chosen to continue, the roll 3 will be add makeing their total 
+   Player OG a coin has been fliped you got tails and rolled a 1. They have chosen to continue, the roll 1 will be add makeing their total 
+   Player OG a coin has been fliped you got tails and rolled a 2. They have chosen to continue, the roll 2 will be add makeing their total 
+   Player OG a coin has been fliped you got tails and rolled a 1. They have chosen to continue, the roll 1 will be add makeing their total 
+   Player OG a coin has been fliped you got tails and rolled a 3. They have chosen to continue, the roll 3 will be add makeing their total 
+   Player OG a coin has been fliped you got tails and rolled a 2. They have chosen to continue, the roll 2 will be add makeing their total 
+   Player OG a coin has been fliped you got heads and rolled a 4. They have chosen not to continue, scoring 16 for the turn.
+OG's total score: 28
+
+AI's turn:
+AI rolled: 2
+Current turn score: 2
+AI rolled: 6
+Rolled a 6! Turn over with 0 points.
+AI's total score: 20
+
+OG's turn:
+   Player OG a coin has been fliped you got tails and rolled a 2. They have chosen to continue, the roll 2 will be add makeing their total 
+   Player OG a coin has been fliped you got tails and rolled a 2. They have chosen to continue, the roll 2 will be add makeing their total 
+   Player OG a coin has been fliped you got tails and rolled a 2. They have chosen to continue, the roll 2 will be add makeing their total 
+   Player OG a coin has been fliped you got heads and rolled a 4. They have chosen not to continue, scoring 10 for the turn.
+OG's total score: 38
+
+AI's turn:
+AI rolled: 2
+Current turn score: 2
+AI rolled: 5
+Current turn score: 7
+AI rolled: 6
+Rolled a 6! Turn over with 0 points.
+AI's total score: 20
+
+OG's turn:
+   Player OG a coin has been fliped you got tails and rolled a 3. They have chosen to continue, the roll 3 will be add makeing their total 
+   Player OG a coin has been fliped you got tails and rolled a 2. They have chosen to continue, the roll 2 will be add makeing their total 
+   Player OG a coin has been fliped you got tails and rolled a 3. They have chosen to continue, the roll 3 will be add makeing their total 
+   Player OG a coin has been fliped you got tails and rolled a 2. They have chosen to continue, the roll 2 will be add makeing their total 
+   Player OG a coin has been fliped you got tails and rolled a 3. They have chosen to continue, the roll 3 will be add makeing their total 
+   Player OG a coin has been fliped you got heads and rolled a 4. They have chosen not to continue, scoring 17 for the turn.
+OG's total score: 55
+
+AI's turn:
+AI rolled: 5
+Current turn score: 5
+AI rolled: 3
+Current turn score: 8
+AI rolled: 2
+Current turn score: 10
+AI ends turn with score: 10
+AI's total score: 30
+
+OG's turn:
+   Player OG a coin has been fliped you got tails and rolled a 1. They have chosen to continue, the roll 1 will be add makeing their total 
+   Player OG a coin has been fliped you got tails and rolled a 2. They have chosen to continue, the roll 2 will be add makeing their total 
+   Player OG a coin has been fliped you got tails and rolled a 3. They have chosen to continue, the roll 3 will be add makeing their total 
+   Player OG a coin has been fliped you got tails and rolled a 1. They have chosen to continue, the roll 1 will be add makeing their total 
+   Player OG a coin has been fliped you got heads and rolled a 5. They have chosen not to continue, scoring 12 for the turn.
+OG's total score: 67
+
+AI's turn:
+AI rolled: 6
+Rolled a 6! Turn over with 0 points.
+AI's total score: 30
+
+OG's turn:
+   Player OG a coin has been fliped you got tails and rolled a 1. They have chosen to continue, the roll 1 will be add makeing their total 
+   Player OG a coin has been fliped you got heads and rolled a 5. They have chosen not to continue, scoring 6 for the turn.
+OG's total score: 73
+
+AI's turn:
+AI rolled: 2
+Current turn score: 2
+AI rolled: 3
+Current turn score: 5
+AI rolled: 6
+Rolled a 6! Turn over with 0 points.
+AI's total score: 30
+
+OG's turn:
+   Player OG a coin has been fliped you got heads and rolled a 6. They have scored 0 for the turn.
+OG's total score: 73
+
+AI's turn:
+AI rolled: 4
+Current turn score: 4
+AI rolled: 5
+Current turn score: 9
+AI rolled: 3
+Current turn score: 12
+AI ends turn with score: 12
+AI's total score: 42
+
+OG's turn:
+   Player OG a coin has been fliped you got heads and rolled a 6. They have scored 0 for the turn.
+OG's total score: 73
+
+AI's turn:
+AI rolled: 3
+Current turn score: 3
+AI rolled: 1
+Current turn score: 4
+AI rolled: 6
+Rolled a 6! Turn over with 0 points.
+AI's total score: 42
+
+OG's turn:
+   Player OG a coin has been fliped you got tails and rolled a 2. They have chosen to continue, the roll 2 will be add makeing their total 
+   Player OG a coin has been fliped you got tails and rolled a 2. They have chosen to continue, the roll 2 will be add makeing their total 
+   Player OG a coin has been fliped you got heads and rolled a 5. They have chosen not to continue, scoring 9 for the turn.
+OG's total score: 82
+
+AI's turn:
+AI rolled: 4
+Current turn score: 4
+AI rolled: 3
+Current turn score: 7
+AI rolled: 5
+Current turn score: 12
+AI ends turn with score: 12
+AI's total score: 54
+
+OG's turn:
+   Player OG a coin has been fliped you got heads and rolled a 4. They have chosen not to continue, scoring 4 for the turn.
+OG's total score: 86
+
+AI's turn:
+AI rolled: 5
+Current turn score: 5
+AI rolled: 3
+Current turn score: 8
+AI rolled: 2
+Current turn score: 10
+AI ends turn with score: 10
+AI's total score: 64
+
+OG's turn:
+   Player OG a coin has been fliped you got tails and rolled a 1. They have chosen to continue, the roll 1 will be add makeing their total 
+   Player OG a coin has been fliped you got heads and rolled a 4. They have chosen not to continue, scoring 5 for the turn.
+OG's total score: 91
+
+AI's turn:
+AI rolled: 1
+Current turn score: 1
+AI rolled: 6
+Rolled a 6! Turn over with 0 points.
+AI's total score: 64
+
+OG's turn:
+   Player OG a coin has been fliped you got tails and rolled a 2. They have chosen to continue, the roll 2 will be add makeing their total 
+   Player OG a coin has been fliped you got tails and rolled a 1. They have chosen to continue, the roll 1 will be add makeing their total 
+   Player OG a coin has been fliped you got tails and rolled a 3. They have chosen to continue, the roll 3 will be add makeing their total 
+   Player OG a coin has been fliped you got heads and rolled a 6. They have scored 0 for the turn.
+OG's total score: 91
+
+AI's turn:
+AI rolled: 6
+Rolled a 6! Turn over with 0 points.
+AI's total score: 64
+
+OG's turn:
+   Player OG a coin has been fliped you got tails and rolled a 2. They have chosen to continue, the roll 2 will be add makeing their total 
+   Player OG a coin has been fliped you got heads and rolled a 5. They have chosen not to continue, scoring 7 for the turn.
+OG's total score: 98
+
+AI's turn:
+AI rolled: 2
+Current turn score: 2
+AI rolled: 2
+Current turn score: 4
+AI rolled: 4
+Current turn score: 8
+AI rolled: 1
+Current turn score: 9
+AI rolled: 5
+Current turn score: 14
+AI ends turn with score: 14
+AI's total score: 78
+
+OG's turn:
+   Player OG a coin has been fliped you got tails and rolled a 3. They have chosen to continue, the roll 3 will be add makeing their total 
+   Player OG a coin has been fliped you got tails and rolled a 2. They have chosen to continue, the roll 2 will be add makeing their total 
+   Player OG a coin has been fliped you got tails and rolled a 3. They have chosen to continue, the roll 3 will be add makeing their total 
+   Player OG a coin has been fliped you got tails and rolled a 3. They have chosen to continue, the roll 3 will be add makeing their total 
+   Player OG a coin has been fliped you got heads and rolled a 6. They have scored 0 for the turn.
+OG's total score: 98
+
+AI's turn:
+AI rolled: 5
+Current turn score: 5
+AI rolled: 3
+Current turn score: 8
+AI rolled: 2
+Current turn score: 10
+AI ends turn with score: 10
+AI's total score: 88
+
+OG's turn:
+   Player OG a coin has been fliped you got tails and rolled a 1. They have chosen to continue, the roll 1 will be add makeing their total 
+   Player OG a coin has been fliped you got tails and rolled a 2. They have chosen to continue, the roll 2 will be add makeing their total 
+   Player OG a coin has been fliped you got heads and rolled a 6. They have scored 0 for the turn.
+OG's total score: 98
+
+AI's turn:
+AI rolled: 6
+Rolled a 6! Turn over with 0 points.
+AI's total score: 88
+
+OG's turn:
+   Player OG a coin has been fliped you got tails and rolled a 1. They have chosen to continue, the roll 1 will be add makeing their total 
+   Player OG a coin has been fliped you got heads and rolled a 6. They have scored 0 for the turn.
+OG's total score: 98
+
+AI's turn:
+AI rolled: 4
+Current turn score: 4
+AI rolled: 2
+Current turn score: 6
+AI rolled: 6
+Rolled a 6! Turn over with 0 points.
+AI's total score: 88
+
+OG's turn:
+   Player OG a coin has been fliped you got heads and rolled a 6. They have scored 0 for the turn.
+OG's total score: 98
+
+AI's turn:
+AI rolled: 1
+Current turn score: 1
+AI rolled: 5
+Current turn score: 6
+AI rolled: 6
+Rolled a 6! Turn over with 0 points.
+AI's total score: 88
+
+OG's turn:
+   Player OG a coin has been fliped you got heads and rolled a 4. They have chosen not to continue, scoring 4 for the turn.
+OG's total score: 102
+
+AI's turn:
+AI rolled: 2
+Current turn score: 2
+AI rolled: 2
+Current turn score: 4
+AI rolled: 5
+Current turn score: 9
+AI rolled: 6
+Rolled a 6! Turn over with 0 points.
+AI's total score: 88
+
+OG's turn:
+   Player OG a coin has been fliped you got heads and rolled a 6. They have scored 0 for the turn.
+OG's total score: 102
+
+AI's turn:
+AI rolled: 1
+Current turn score: 1
+AI rolled: 3
+Current turn score: 4
+AI rolled: 4
+Current turn score: 8
+AI rolled: 6
+Rolled a 6! Turn over with 0 points.
+AI's total score: 88
+
+OG's turn:
+   Player OG a coin has been fliped you got tails and rolled a 3. They have chosen to continue, the roll 3 will be add makeing their total 
+   Player OG a coin has been fliped you got heads and rolled a 5. They have chosen not to continue, scoring 8 for the turn.
+OG's total score: 110
+OG wins the game with 110 points!
+
+3. Lab book:
+Name: Chat GBT 
+Version: 5.3
+Session Date: Feb 1-2
+Session goal: Working Bulldog game
+Prompt summery: 
+    1. First prompt: All of the bulldog instructions. 
+        Which was Almost the whole Bulldog.pdf (began at 
+        "Background" stoped at "Style Requirements").
+    2. Second prompt: solution to error: "cannot access FifteenPlayer". 
+    3. Third fourth and fith promps were the same. (ended up just recreating the file)
+    4. Sixth prompt: adding WimpPlayer to the switch case (manually added WimpPlayer 
+        to the print statment)
+Prompting strategy: If there was somthing wrong or not their asked for solution or a fix. 
+If it was going in loops I would solve it and keep going.
+
+
+4. The description of the steps necessary to accomplish Step 5.
+Changes in the original Unique:
+- Changed file name to UniquePlayerOG. (line 10,12,13,16)
+- Changed int total_score = getScore() -> total_score = 0. (line 27)
+- Changed return getScore() -> return roll. (line 48)
+- NOT NESSARY: changed the print stament on line 67.  
+Changes in the AI Unique:
+- Adding UniquePlayerOG to the switch case statment in Prog1. (Line 37,38,39)
+- NOT NESSARY: added to the print stament to make easyer for users on line 18. 

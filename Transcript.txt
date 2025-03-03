@@ -1,0 +1,8 @@
+First session: Feb 20,2025 lasted 34:04.85
+Completed: 
+- Got Screen 1,2 working 
+Working on: 
+- only two buttons active 
+- non of the player types put in place
+- button for human to continue
+- shows player name, total, and turn total

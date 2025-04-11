@@ -29,6 +29,10 @@ public abstract class Player {
     public void addTurnTotal(int roll) {
         this.turnTotal += roll;
     }
+    
+    public void setTurnTotal(int value) {
+        this.turnTotal = value;
+    }
 
     // This method will be called to end the player's turn
     public void endTurn() {

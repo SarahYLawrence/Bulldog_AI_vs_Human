@@ -1,10 +1,9 @@
-import java.awt.BorderLayout;
-import javax.swing.JFrame;
-import javax.swing.JTextArea;
-import javax.swing.JScrollPane;
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
 
-// Viewer class for Scoreboard
-class ScoreboardViewer extends JFrame {
+// Viewer class for Scoreboard (as a JPanel)
+class ScoreboardViewer extends JPanel {
     private PlayerList playerList;
     private JTextArea displayArea;
 
@@ -12,17 +11,25 @@ class ScoreboardViewer extends JFrame {
         this.playerList = playerList;
         this.playerList.setViewer(this);
 
-        setTitle("Scoreboard");
-        setSize(300, 200);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
         displayArea = new JTextArea();
         displayArea.setEditable(false);
         add(new JScrollPane(displayArea), BorderLayout.CENTER);
 
+        // Leave Button to leave the scoreboard
+        JButton closeScoreboardButton = new JButton("Leave");
+        add(closeScoreboardButton, BorderLayout.SOUTH); // Add to bottom
+        
+        closeScoreboardButton.addActionListener(e -> {
+            Container parent = getParent(); // ScoreboardPanel
+            if (parent != null && parent.getParent() instanceof JPanel) {
+                CardLayout layout = (CardLayout) parent.getParent().getLayout();
+                layout.show(parent.getParent(), "GameScreen");
+            }
+        });
+
         updateView();
-        setVisible(true);
     }
 
     public void updateView() {

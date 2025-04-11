@@ -6,7 +6,7 @@ import java.util.*;
  * A Swing-based game setup with multiple screens for player selection,
  * name entry, player type selection, and the main game screen.
  */
-public class BulldogGameGUI {
+public class GameGUI {
     private JFrame frame;
     private JPanel mainPanel;
     private CardLayout cardLayout;
@@ -15,11 +15,8 @@ public class BulldogGameGUI {
     private ArrayList<String> playerNames = new ArrayList<>();
     private Map<String, String> playerTypes = new HashMap<>();
     private int currentPlayerIndex = 0;
+    private Referee referee;
 
-    // Player game data
-    private int[] playerScores;
-    private int[] playerTurns;
-    private int[] turnTotals;  // To track the sum of rolls for the current turn
 
     // Components for the second screen (Name entry)
     private JLabel playerPromptLabel;
@@ -28,7 +25,7 @@ public class BulldogGameGUI {
 
     // Components for the third screen (Player type selection)
     private JLabel typePromptLabel;
-    private JButton wimpButton, randomButton, humanButton, fifteenButton, uniqueButton;
+    private JButton wimpButton, randomButton, humanButton, sevenButton, uniqueButton;
 
     // Components for the fourth screen (Game screen)
     private JLabel gameTitleLabel;
@@ -44,15 +41,19 @@ public class BulldogGameGUI {
     // PlayerList model instance
     private PlayerList playerList;
 
+
+
     /**
     * Constructor to initialize the game setup and UI components.
     */
-    public BulldogGameGUI() {
+    public GameGUI() {        
+
         frame = new JFrame("Game Setup");
         cardLayout = new CardLayout();
         mainPanel = new JPanel(cardLayout);
         random = new Random();
         playerList = new PlayerList(); // Initialize PlayerList
+        referee = Referee.getInstance(playerList);
 
         // ========== First Screen: Welcome and Player Selection ==========
         JPanel welcomeScreen = new JPanel(new BorderLayout());
@@ -99,14 +100,14 @@ public class BulldogGameGUI {
         wimpButton = new JButton("Wimp");
         randomButton = new JButton("Random");
         humanButton = new JButton("Human");
-        fifteenButton = new JButton("Fifteen");
+        sevenButton = new JButton("Seven");
         uniqueButton = new JButton("Unique");
         
         JPanel buttonPanel = new JPanel(new GridLayout(3, 2));
         buttonPanel.add(humanButton);
         buttonPanel.add(wimpButton);
         buttonPanel.add(randomButton);
-        buttonPanel.add(fifteenButton);
+        buttonPanel.add(sevenButton);
         buttonPanel.add(uniqueButton);
         thirdScreen.add(typePromptLabel, BorderLayout.NORTH);
         thirdScreen.add(buttonPanel, BorderLayout.CENTER);
@@ -131,23 +132,31 @@ public class BulldogGameGUI {
         gameScreen.add(endTurnButton); // Add End Turn button
         gameScreen.add(nextPlayerButton); // Add Next Player button
 
+        // ========== Win Screen ==========
+        JPanel winScreen = new JPanel(new BorderLayout());
+        JLabel winnerLabel = new JLabel("", SwingConstants.CENTER); 
+       
+        winScreen.add(winnerLabel, BorderLayout.CENTER); 
+
         // ========== Add screens to CardLayout ==========
         mainPanel.add(welcomeScreen, "WelcomeScreen");
         mainPanel.add(secondScreen, "SecondScreen");
         mainPanel.add(thirdScreen, "ThirdScreen");
         mainPanel.add(gameScreen, "GameScreen");
+        mainPanel.add(winScreen, "WinScreen"); 
 
-        // ========== View Scoreboard Button ==========
-        JButton viewScoreboardButton = new JButton("View Scoreboard");
-        gameScreen.add(viewScoreboardButton);
+       // ========== View Scoreboard Button ==========
+       JButton viewScoreboardButton = new JButton("View Scoreboard");
+       gameScreen.add(viewScoreboardButton);
 
-        viewScoreboardButton.addActionListener(e -> {
-            ScoreboardViewer scoreboardViewer = new ScoreboardViewer(playerList); // Pass PlayerList
-            JPanel scoreboardPanel = new JPanel();
-            scoreboardPanel.add(scoreboardViewer);
-            mainPanel.add(scoreboardPanel, "ScoreboardScreen");
-            cardLayout.show(mainPanel, "ScoreboardScreen");
-        });
+       viewScoreboardButton.addActionListener(e -> {
+           ScoreboardViewer scoreboardViewer = new ScoreboardViewer(playerList); // Pass PlayerList
+           JPanel scoreboardPanel = new JPanel();
+           scoreboardPanel.add(scoreboardViewer);
+           mainPanel.add(scoreboardPanel, "ScoreboardScreen");
+           cardLayout.show(mainPanel, "ScoreboardScreen");
+       });
+        
         
         // ========== Button Actions ==========
         nextButton.addActionListener(e -> {
@@ -157,9 +166,6 @@ public class BulldogGameGUI {
             } else {
                 playerNames.clear();
                 playerTypes.clear();
-                playerScores = new int[selectedNumber];
-                playerTurns = new int[selectedNumber];
-                turnTotals = new int[selectedNumber];  // Initialize turnTotals array
                 currentPlayerIndex = 0;
                 updatePrompt();
                 cardLayout.show(mainPanel, "SecondScreen");
@@ -189,8 +195,6 @@ public class BulldogGameGUI {
             playerList.addPlayer(new HumanPlayer(
                 playerNames.get(currentPlayerIndex), 
                 rollDiceButton, 
-                endTurnButton, 
-                nextPlayerButton,
                 rollResultLabel,
                 totalLabel,
                 turnTotalLabel,
@@ -198,7 +202,47 @@ public class BulldogGameGUI {
             ));
             nextPlayerType();
         });
+
+        sevenButton.addActionListener(e -> {
+            playerList.addPlayer(new SevenPlayer(
+                playerNames.get(currentPlayerIndex), 
+                rollDiceButton, 
+                rollResultLabel,
+                totalLabel,
+                turnTotalLabel,
+                this,
+                new Dice(6)
+            ));
+            nextPlayerType();
+        });
         
+        endTurnButton.addActionListener(e ->  {        
+                // End the current player's turn
+                getCurrentPlayer().endTurn();
+        
+                // Check if the game is over
+                if (referee.isGameOver()) {
+                    Player winner = referee.getWinner();
+                    if (winner instanceof HumanPlayer) {
+                        winnerLabel.setText(winner.getName() + " Wins!");
+                        cardLayout.show(mainPanel, "WinScreen");
+                    } else {
+                        JOptionPane.showMessageDialog(frame, winner.getName() + " (bot) wins the game.");
+                    }
+                } else {
+                    // If game isn't over, reset the board and move to next turn
+                    rollResultLabel.setText("Roll: --");
+                    turnTotalLabel.setText("Turn Total: 0");
+                    totalLabel.setText("Total: " + getCurrentPlayer().getScore());
+                    updateButtonStates(true, false, true);  // Enable the Roll and Next Player buttons
+                    nextPlayerButton.setEnabled(true);
+                }
+        
+                // Disable buttons after turn is ended
+                rollDiceButton.setEnabled(false);
+                endTurnButton.setEnabled(false);
+            });
+
         // Setup frame
         frame.add(mainPanel);
         frame.setSize(400, 300);
@@ -206,11 +250,12 @@ public class BulldogGameGUI {
         frame.setVisible(true);
 
         nextPlayerButton.addActionListener(e -> {
-            currentPlayerIndex = (currentPlayerIndex + 1) % selectedNumber;
-            // Update the game screen with the new player's info
+            referee.nextPlayer();
             updateGameScreen();
         });
     }
+    
+    
 
     /**
      * Updates the name prompt for player name entry.
@@ -250,31 +295,33 @@ public class BulldogGameGUI {
     }
 
     public Player getCurrentPlayer() {
-        return playerList.getPlayers().get(currentPlayerIndex);
+        return referee.getCurrentPlayer();
     }
-    
+
     /**
      * Updates the game screen with the current player's information.
      */
     private void updateGameScreen() {
-        Player currentPlayer = getCurrentPlayer();
-
-        playerNameLabel.setText(playerNames.get(currentPlayerIndex) + "'s Turn");
+        Player currentPlayer = referee.getCurrentPlayer();
+    
+        playerNameLabel.setText(currentPlayer.getName() + "'s Turn");
         totalLabel.setText("Total: " + currentPlayer.getScore());
-        turnTotalLabel.setText("Turn Total: " + currentPlayer.getTurnTotal()); // Display Turn Total
-        
+        turnTotalLabel.setText("Turn Total: " + currentPlayer.getTurnTotal());
+    
         updateButtonStates(false, false, false);
-
+    
         if (currentPlayer instanceof HumanPlayer) {
             updateButtonStates(true, true, false);
-            //HumanPlayer humanPlayer = (HumanPlayer) currentPlayer;
-        } 
-    }    
-
+        }
+        if (currentPlayer instanceof SevenPlayer) {
+            updateButtonStates(true, true, false);
+        }
+    }
+     
      /**
      * Main method to launch the application.
      */
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(BulldogGameGUI::new);
+        SwingUtilities.invokeLater(GameGUI::new);
     }
 }

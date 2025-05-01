@@ -10,10 +10,10 @@ The purpose of this assignment is to have the AI repeat the same steps as the Hu
 4. Bring your UniquePlayer from Program1 into this project. This may - or may not - require changes to do so. At the very least, I would expect to require a name change. Keep track of the changes necessary.
 5. Play a game betwen a your UniquePlayer and the one written by your AI tool and add the transcript of that game to your lab write-up.
 6. Your final write-up should consist of four sections:
-  - the transcript from Step 4
-  - the transcript from Step 6
-  - an edited copy of your "lab book" (see below) to create the code
-  - the description of the steps necessary to accomplish Step 5.
+   - the transcript from Step 4  
+   - the transcript from Step 6  
+   - an edited copy of your "lab book" (see below) to create the code  
+   - the description of the steps necessary to accomplish Step 5
 
 ## Result
 Code: Code folder  

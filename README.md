@@ -16,8 +16,12 @@ You are to write an essay (minimum or maximum word counts not specified) discuss
 Your essay should be in the style of a magazine column or a web article for a tech site such as Wired. You needn't worry about a formal introduction but you should lay out the parameters of the discussion. You need not explain the rules of Bulldog or the assignment specifications - but you are certainly welcome to do so if that helps with your exposition. Including (labeled) code snippets to help with exposition is fine, but may not be necessary.
 
 ## Result
-**Finding the Results**  
+**Code Results**  
+No code
+**Written Results**  
 Writen results: Documentation -> Documentation3.txt 
+
+
 
 
 

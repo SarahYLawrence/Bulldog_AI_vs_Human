@@ -48,20 +48,12 @@ You will design a unique strategy for the UniquePlayer class that differs from a
 strategy described here.
 
 ### Experments:
-This project includes a series of experiments exploring human and AI assistance:
-
-**Program One** – Tests only the human's coding abilities.
-
-**Program Two** – Tests only AI's coding abilities.
-
-**Program Three** – Compares AI and human coding abilities.
-
-**Program Four** – Human with no prior knowledge uses AI to implement a Java Swing interface.
-
-**Program Five** – Human uses AI assistance to improve the Bulldog game.
-
-**Program Six** – Human uses AI to implement the Model-View-Controller (MVC) design pattern.
-
-**Program Seven** – Human uses AI to implement the Singleton design pattern.
-
+This project includes a series of experiments exploring human and AI assistance:  
+**Program One** – Tests only the human's coding abilities.  
+**Program Two** – Tests only AI's coding abilities.  
+**Program Three** – Compares AI and human coding abilities.  
+**Program Four** – Human with no prior knowledge uses AI to implement a Java Swing interface.  
+**Program Five** – Human uses AI assistance to improve the Bulldog game.  
+**Program Six** – Human uses AI to implement the Model-View-Controller (MVC) design pattern.  
+**Program Seven** – Human uses AI to implement the Singleton design pattern.  
 **Program Eight** – Human uses AI to implement the Strategy design pattern.

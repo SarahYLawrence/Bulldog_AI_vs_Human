@@ -1,6 +1,6 @@
 # AI and Human Experment 
 
-The goal is to test weather AI can help or harm coding
+The goal is to test weather AI can help or harm coding.
 
 
 
@@ -14,7 +14,7 @@ Each player takes turns rolling a six-sided die with the following rules:
 - If the player ends the turn, the accumulated turn score is added to their total score.
 - The first player to reach 104 points wins the game.
 
-The game implments difrent bot stragies that humans can play agenst.
+The game implments diffrent bot stragies that humans can play agenst.
 
 
 ## Bot Stratges
@@ -31,8 +31,8 @@ Objects in the FifteenPlayer class will always choose to continue the turn until
 ## Experments:
 This project includes a series of experiments exploring human and AI assistance:
 
-- **Program One** – Tests only the human's coding abilities.
-- **Program Two** – Tests only AI's coding abilities.
+**Program One** – Tests only the human's coding abilities.
+**Program Two** – Tests only AI's coding abilities.
 - **Program Three** – Compares AI and human coding abilities.
 - **Program Four** – Human with no prior knowledge uses AI to implement a Java Swing interface.
 - **Program Five** – Human uses AI assistance to improve the Bulldog game.

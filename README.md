@@ -1,8 +1,6 @@
 # AI and Human Experment 
 
-The goal is to test weather AI can help or harm coding. This expremnet was condicted with the game bulldog. 
-
-
+The goal is to evaluate weather AI is better at assisting humans with coding or harming. This expremnet was condicted with the game bulldog. The bulldog game over each experment was added too to challange the team work of the AI and human as the code gained more complexity.  
 
 ## Bulldog Game Rules
 
@@ -16,7 +14,7 @@ Each player takes turns rolling a six-sided die with the following rules:
 
 The game implments diffrent bot strategies that can be played.
 
-### Bot Stratges
+**Bulldog Bot Stratges**
 - **HumanPlayer:**
 Objects in the HumanPlayer class will print the cumulative score earned so far in this
 turn, and ask the user to choose whether or not to end the turn. The object will use

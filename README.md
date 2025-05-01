@@ -1,12 +1,13 @@
 # AI and Human Experment 
 
+## Goal
 The goal is to evaluate weather AI is better at assisting humans with coding or harming. This expremnet was condicted with the game bulldog. The bulldog game over each experment was added too to challange the team work of the AI and human as the code gained more complexity.  
 
 ## Technologies
-- JUnit - For unit testing
+- JUnit - For unit testing 
 
 ## Getting Started
-- In the experment VS code: Java version 22 was used
+- In the experment VS code: Java version 22 was used and install the Java Extension Pack
 - Recomended for other IDE's: Java versions 8,11,or 17
 
 ## Installation

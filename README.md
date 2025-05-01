@@ -3,7 +3,7 @@
 The goal is to evaluate weather AI is better at assisting humans with coding or harming. This expremnet was condicted with the game bulldog. The bulldog game over each experment was added too to challange the team work of the AI and human as the code gained more complexity.  
 
 ## Bulldog Game
-**Bulldog Rules**
+**Bulldog Rules:**
 Each player takes turns rolling a six-sided die with the following rules:
 
 - If a 6 is rolled, the turn ends immediately and no points are gained.

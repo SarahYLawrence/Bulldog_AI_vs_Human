@@ -7,13 +7,19 @@ The goal is to evaluate weather AI is better at assisting humans with coding or 
 - JUnit - For unit testing 
 
 ## Getting Started
-- In the experment VS code: Java version 22 was used and install the Java Extension Pack
-- Recomended for other IDE's: Java versions 8,11,or 17
+- In the experment VS code: Java version 22 was used
+- Recomended: Java versions 8,11,or 17 (better for Junit & Java swing)
 
 ## Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/SarahYLawrence/Bulldog_AI_vs_Human.git
+   
+## Visual Studio Code Setup
+- VS code install: https://code.visualstudio.com/
+- Open VS Code, and go to the Extensions view (four boxes on the left hand side)
+- Install the "Extension Pack for Java"
+- preform Installation step 
 
 ## About
 ### Bulldog Game

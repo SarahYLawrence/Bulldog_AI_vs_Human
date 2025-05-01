@@ -13,7 +13,7 @@ The goal is to evaluate weather AI is better at assisting humans with coding or 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repository/ghana-health-system.git
+   git clone https://github.com/SarahYLawrence/Bulldog_AI_vs_Human.git
 
 ## About
 ### Bulldog Game

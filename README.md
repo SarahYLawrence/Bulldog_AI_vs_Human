@@ -12,8 +12,8 @@ The goal is to evaluate weather AI is better at assisting humans with coding or 
 
 ## Installation
 1. Clone the repository:
-```bash
-git clone git@github.com:SarahYLawrence/Bulldog_AI_vs_Human.git
+  ``bash
+git clone git@github.com:SarahYLawrence/Bulldog_AI_vs_Human.git 
 
 ## About
 ### Bulldog Game

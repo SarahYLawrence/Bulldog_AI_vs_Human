@@ -1,6 +1,8 @@
-# Experment Goal
+# AI and Human Experment 
 
-The goal is to test 
+The goal is to test weather AI can help or harm coding
+
+
 
 ## Bulldog Game Rules
 
@@ -16,18 +18,22 @@ The game implments difrent bot stragies that humans can play agenst.
 
 
 ## Bot Stratges
-
-- HumanPlayer
+- HumanPlayer: 
 Objects in the HumanPlayer class will print the cumulative score earned so far in this
 turn, and ask the user to choose whether or not to end the turn. The object will use
 System.in to read the user’s response from the keyboard.
-- RandomPlayer
+- RandomPlayer: 
 Objects in the RandomPlayer class will choose to continue or end the current turn
 randomly, with a 50% probability for either choice.
-- FifteenPlayer
+- FifteenPlayer:
 Objects in the FifteenPlayer class will always choose to continue the turn until a
-score of at least 15 is reached, at which point the object will choose to end the turn.
-(Note that, of course, if a 6 is rolled, the turn ends with a score of 0.)
-- UniquePlayer
-You will design a unique strategy for the UniquePlayer class that differs from any
-strategy described here.
+
+## Experments:
+Program one: tests just the humans skills
+Program two: tests the AI skills
+Program three: is a comparson between the AI and Human
+Program four:The Human with no knowledge using AI to implment Javaswing
+Program five: The Human using AI to add improvments to Bulldog
+Program six: The Human using AI to implment the Model-View-Controller design pattern
+Program seven: The Human using AI to implment the Singleton design pattern
+Program eight: The Human using AI to implment the Strategy design pattern

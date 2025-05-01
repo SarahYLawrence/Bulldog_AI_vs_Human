@@ -28,6 +28,17 @@ randomly, with a 50% probability for either choice.
 - FifteenPlayer:
 Objects in the FifteenPlayer class will always choose to continue the turn until a
 
+This project includes a series of experiments exploring human and AI-assisted development:
+
+1. **Program One** – Tests only the human's coding abilities.
+2. **Program Two** – Evaluates AI-only strategies and performance.
+3. **Program Three** – Compares AI and human gameplay directly.
+4. **Program Four** – Human with no prior knowledge uses AI to implement a Java Swing interface.
+5. **Program Five** – Human uses AI assistance to improve the *Bulldog* game.
+6. **Program Six** – Human uses AI to implement the **Model-View-Controller (MVC)** design pattern.
+7. **Program Seven** – Human uses AI to implement the **Singleton** design pattern.
+8. **Program Eight** – Human uses AI to implement the **Strategy** design pattern.
+9. 
 ## Experments:
 Program one: tests just the humans skills
 Program two: tests the AI skills

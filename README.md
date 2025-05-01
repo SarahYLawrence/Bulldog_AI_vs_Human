@@ -31,7 +31,7 @@ Objects in the FifteenPlayer class will always choose to continue the turn until
 ## Experments:
 This project includes a series of experiments exploring human and AI assistance:
 
-**Program One** – Tests only the human's coding abilities.
+**Program One** – Tests only the human's coding abilities.\\
 **Program Two** – Tests only AI's coding abilities.
 **Program Three** – Compares AI and human coding abilities.
 **Program Four** – Human with no prior knowledge uses AI to implement a Java Swing interface.

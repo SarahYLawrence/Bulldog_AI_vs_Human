@@ -16,6 +16,7 @@ The purpose of this assignment is to have the AI repeat the same steps as the Hu
    - the description of the steps necessary to accomplish Step 5
 
 ## Result
+**Finding the Results**  
 Code: Fully functional code Code folder  
 Writen results: Documentation -> transcript.txt 
 

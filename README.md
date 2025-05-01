@@ -8,7 +8,7 @@ The purpose of this assignment is to establish some basic code to add on to as w
 
 
 ## Result
-Code: Code folder 
+Code: Code folder  
 Writen results: Documentation -> transcript.txt 
 
 

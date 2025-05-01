@@ -7,7 +7,7 @@ The purpose of this assignment is compare program 1: human genrated code to prog
 
 
 ## Result
-Writen results: Documentation -> transcript.txt 
+Writen results: Documentation -> documentation3.txt 
 
 
 

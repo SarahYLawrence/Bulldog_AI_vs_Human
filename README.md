@@ -12,7 +12,8 @@ The goal is to evaluate weather AI is better at assisting humans with coding or 
 ## Installation
 1. Clone the repository:
 
-## Bulldog Game
+## About
+### Bulldog Game
 **Bulldog Rules:**
 Each player takes turns rolling a six-sided die with the following rules:
 
@@ -37,7 +38,7 @@ Objects in the FifteenPlayer class will always choose to continue the turn until
 You will design a unique strategy for the UniquePlayer class that differs from any
 strategy described here.
 
-## Experments:
+### Experments:
 This project includes a series of experiments exploring human and AI assistance:
 
 **Program One** – Tests only the human's coding abilities.

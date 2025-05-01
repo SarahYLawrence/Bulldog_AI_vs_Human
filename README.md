@@ -18,15 +18,18 @@ The game implments diffrent bot stragies that humans can play agenst.
 
 
 ## Bot Stratges
-- HumanPlayer: 
+- **HumanPlayer:**
 Objects in the HumanPlayer class will print the cumulative score earned so far in this
 turn, and ask the user to choose whether or not to end the turn. The object will use
 System.in to read the user’s response from the keyboard.
-- RandomPlayer: 
+- **RandomPlayer:**
 Objects in the RandomPlayer class will choose to continue or end the current turn
 randomly, with a 50% probability for either choice.
-- FifteenPlayer:
+- **FifteenPlayer:**
 Objects in the FifteenPlayer class will always choose to continue the turn until a
+- **UniquePlayer**
+You will design a unique strategy for the UniquePlayer class that differs from any
+strategy described here.
 
 ## Experments:
 This project includes a series of experiments exploring human and AI assistance:

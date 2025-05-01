@@ -15,7 +15,8 @@ Located in the provided filed folder are the follwing:
 - Player.java
 - WimpPlayer.java
 
-## Result
+## Results
+**Finding the Results**
 Code: Fully functional code in Code folder  
 Writen results: Documentation -> transcript.txt 
 

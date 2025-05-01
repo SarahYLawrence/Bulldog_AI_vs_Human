@@ -1,7 +1,7 @@
 # AI Code
 
 ## Purpose 
-The purpose of this assignment is to have a comparson to the Human code.
+The purpose of this assignment is to have the AI repeat the same steps as the Human for later analysis.
 
 ## Instructions 
 1. Reread Bulldog.pdf. You may, of course, access - and supply to your AI tool - the files Player.java and WimpPlayer.java.
@@ -14,8 +14,6 @@ The purpose of this assignment is to have a comparson to the Human code.
   - the transcript from Step 6
   - an edited copy of your "lab book" (see below) to create the code
   - the description of the steps necessary to accomplish Step 5.
-
-
 
 ## Result
 Code: Code folder  

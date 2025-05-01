@@ -58,4 +58,4 @@ This project includes a series of experiments exploring human and AI assistance:
 - **Program Seven** – Human uses AI to implement the Singleton design pattern.  
 - **Program Eight** – Human uses AI to implement the Strategy design pattern.
   
-In each experment there will be a Readme with the Purpose of the experment, the Instructions, and how to see/get my Results. The instructions are the exact instructions given to me for each experment incase you'd like to preform the experment yourself.
+In each experment there will be a Readme with the **Purpose** of the experment, the **Instructions**, and how to see/get my **Results**. The instructions are the exact instructions given to me for each experment incase you'd like to preform the experment yourself.

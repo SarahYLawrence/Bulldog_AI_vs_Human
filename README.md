@@ -1,4 +1,4 @@
-# AI Code
+# AI and Human Code Comparson
 
 ## Purpose 
 The purpose of this assignment is compare program 1: human genrated code to program 2: AI genrated code.

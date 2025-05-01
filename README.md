@@ -1,6 +1,6 @@
 # AI and Human Experment 
 
-The goal is to test weather AI can help or harm coding.
+The goal is to test weather AI can help or harm coding. This expremnet was condicted with the game bulldog. 
 
 
 
@@ -14,10 +14,9 @@ Each player takes turns rolling a six-sided die with the following rules:
 - If the player ends the turn, the accumulated turn score is added to their total score.
 - The first player to reach 104 points wins the game.
 
-The game implments diffrent bot stragies that humans can play agenst.
+The game implments diffrent bot strategies that can be played.
 
-
-## Bot Stratges
+### Bot Stratges
 - **HumanPlayer:**
 Objects in the HumanPlayer class will print the cumulative score earned so far in this
 turn, and ask the user to choose whether or not to end the turn. The object will use
@@ -27,7 +26,7 @@ Objects in the RandomPlayer class will choose to continue or end the current tur
 randomly, with a 50% probability for either choice.
 - **FifteenPlayer:**
 Objects in the FifteenPlayer class will always choose to continue the turn until a
-- **UniquePlayer**
+- **UniquePlayer:**
 You will design a unique strategy for the UniquePlayer class that differs from any
 strategy described here.
 

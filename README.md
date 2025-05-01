@@ -12,9 +12,8 @@ Each player takes turns rolling a six-sided die with the following rules:
 - If the player ends the turn, the accumulated turn score is added to their total score.
 - The first player to reach 104 points wins the game.
 
-The game implments diffrent bot strategies that can be played.
-
 **Bulldog Bot Stratges**
+The game has diffrent player/bot strategies that can be played.
 - **HumanPlayer:**
 Objects in the HumanPlayer class will print the cumulative score earned so far in this
 turn, and ask the user to choose whether or not to end the turn. The object will use

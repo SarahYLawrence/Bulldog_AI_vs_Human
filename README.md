@@ -12,7 +12,7 @@ You are to write an essay (minimum or maximum word counts not specified) discuss
 - Differences in issues of style;
 - What might be different if you were to do either assignment again;
 - Anything else that you think might be interesting;
-- 
+  
 Your essay should be in the style of a magazine column or a web article for a tech site such as Wired. You needn't worry about a formal introduction but you should lay out the parameters of the discussion. You need not explain the rules of Bulldog or the assignment specifications - but you are certainly welcome to do so if that helps with your exposition. Including (labeled) code snippets to help with exposition is fine, but may not be necessary.
 
 ## Result

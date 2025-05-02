@@ -17,8 +17,7 @@ The purpose of this assignment is to have the AI repeat the same steps as the Hu
 
 ## Result
 **Code Results**  
-Code: Fully functional code is in Code folder  
-Run: Prog 1.java file  
+Run: Code -> Prog 1.java  
 **Written Results**  
 Documentation -> transcript.txt 
 

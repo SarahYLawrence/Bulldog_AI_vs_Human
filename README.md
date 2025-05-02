@@ -17,7 +17,7 @@ Your "lab book" should include four sections, one for each improvment. In each c
 ## Result
 **Code Results**  
 (This project was done wrong I was suposed to use the prior Java swing files but I accidentally used program 2 instead)  
-Run: Prog1.java  
+Run: Code -> Prog1.java  
 **Written Results**  
 Documentation -> Documentation5.txt 
 

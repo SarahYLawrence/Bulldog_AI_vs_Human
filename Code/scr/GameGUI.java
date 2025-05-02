@@ -39,9 +39,11 @@ public class GameGUI {
     private JButton rollDiceButton;
     private JButton endTurnButton; // Button to end the current turn and add Turn Total to Total Score
     private JButton viewHistoryButton;
+    private JButton undoHistoryButton;
     private JButton nextPlayerButton; // Button to go to the next player
     private Random random;
     private JTextArea historyTextArea;
+    private CommandScoreHistory lastHistoryCommand;
 
     
     // PlayerList model instance
@@ -121,6 +123,7 @@ public class GameGUI {
         endTurnButton = new JButton("End Turn"); // New button to finalize the turn and add to Total Score
         nextPlayerButton = new JButton("Next Player"); // New button for next player
         viewHistoryButton = new JButton("Past Scores");
+        undoHistoryButton = new JButton("Delete History Window");
 
         gameScreen.add(gameTitleLabel);
         gameScreen.add(playerNameLabel);
@@ -131,6 +134,7 @@ public class GameGUI {
         gameScreen.add(endTurnButton); // Add End Turn button
         gameScreen.add(nextPlayerButton); // Add Next Player button
         gameScreen.add(viewHistoryButton);
+        gameScreen.add(undoHistoryButton);
 
         // ========== Win Screen ==========
         JPanel winScreen = new JPanel(new BorderLayout());
@@ -197,35 +201,53 @@ public class GameGUI {
             buttonPanel.add(button);  
         }
 
-        endTurnButton.addActionListener(e -> {
-            Command endTurn = new CommandEndTurn(
-                this.getCurrentPlayer(),  // Assuming this method returns the current player
-                gameStatus, 
-                winnerLabel, 
-                rollResultLabel,   
-                turnTotalLabel,    
-                totalLabel,        
-                rollDiceButton, 
-                endTurnButton, 
-                nextPlayerButton, 
-                mainPanel, 
-                cardLayout, 
-                this.getFrame()  // Pass the frame
-            );  endTurn.execute();
+        endTurnButton.addActionListener(e ->  {        
+            // End the current player's turn
+            getCurrentPlayer().endTurn();
+
+            // Check if the game is over
+            if (gameStatus.isGameOver()) {
+                Player winner = getCurrentPlayer();
+                if (winner instanceof HumanPlayer) {
+                    winnerLabel.setText(winner.getName() + " Wins!");
+                    cardLayout.show(mainPanel, "WinScreen");
+                } else {
+                    JOptionPane.showMessageDialog(frame, winner.getName() + " (bot) wins the game.");
+                }
+            } else {
+                // If game isn't over, reset the board and move to next turn
+                rollResultLabel.setText("Roll: --");
+                turnTotalLabel.setText("Turn Total: 0");
+                totalLabel.setText("Total: " + getCurrentPlayer().getScore());
+                updateButtonStates(true, false, true);  // Enable the Roll and Next Player buttons
+                nextPlayerButton.setEnabled(true);
+            }
+    
+            // Disable buttons after turn is ended
+            rollDiceButton.setEnabled(false);
+            endTurnButton.setEnabled(false);
         });
 
+
+        // Inside your GUI setup method
         historyTextArea = new JTextArea();
         historyTextArea.setEditable(false);  // Make the area read-only
-        historyTextArea.setText("Player History will be displayed here.");
 
-        // Add the action listener to the View History Button
+        // View History Button
         viewHistoryButton.addActionListener(e -> {
-            CommandViewAllPlayersHistory viewAllPlayersHistory = new CommandViewAllPlayersHistory(
-                playerList.getPlayers()    // Pass the list of players      
+            lastHistoryCommand = new CommandScoreHistory(
+                playerList.getPlayers()    // Pass the list of players
             );
-            viewAllPlayersHistory.execute();  // Execute the command to show player history
+            lastHistoryCommand.execute();  // Execute the command to show player history
         });
-       
+
+        // Undo History Button
+        undoHistoryButton.addActionListener(e -> {
+            if (lastHistoryCommand != null) {
+                lastHistoryCommand.undo();
+            }
+        });
+            
 
         // Setup frame
         frame.add(mainPanel);

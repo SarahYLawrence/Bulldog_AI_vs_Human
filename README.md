@@ -28,8 +28,8 @@ Your "lab book" should include the discussion from Step 1, the snipshot from Ste
 **Code Results**  
 Run: Code -> GameGUI.java  
 Run tests: Code -> FakeRandomTest.java  
-Getting tests to work:  
+Getting tests to work:
 - If the main branch was followed the the "Testing" feature on the left hand side of VS code should appear 
-- If not "Setup JUnit for VS Code" video hopfully helps: https://www.youtube.com/watch?v=936wHLIR4UY
+- If not "Setup JUnit for VS Code" video hopfully helps: https://www.youtube.com/watch?v=936wHLIR4UY  
 **Written Results**  
 Documentation -> Documentation7.txt 

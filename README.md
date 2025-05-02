@@ -4,6 +4,9 @@
 The purpose of this assignment is compare program 1: human genrated code to program 2: AI genrated code.
 
 ## Instructions 
+**Code**  
+None  
+**Documentation**  
 You are to write an essay (minimum or maximum word counts not specified) discussing YOUR OBESERVATIONS of the differences in programs 1 and 2. Topics which would certainly be worthy of discussion include:    
 - Differences in the quality of the output;
 - Differences in the time it took to complete the assignment;

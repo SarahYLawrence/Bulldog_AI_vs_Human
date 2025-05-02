@@ -1,4 +1,4 @@
-# Java Swing
+# Bulldog Improvments
 
 ## Purpose 
 The purpose of this assignment is to see how well AI tools can work to write code using existing frameworks. It's also to test how well a Human can use AI with no prior knowledge of Java Swing. 

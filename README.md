@@ -19,7 +19,7 @@ Your essay should be in the style of a magazine column or a web article for a te
 **Code Results**  
 No code  
 **Written Results**  
-Writen results: Documentation -> Documentation3.txt 
+Documentation -> Documentation3.txt 
 
 
 

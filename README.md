@@ -14,7 +14,7 @@ The purpose of this assignment is to gain experience with the principles of sepa
 
 ## Result
 **Code Results**  
-Run: BulldogGameGUI.java  
+Run: Code -> BulldogGameGUI.java  
 **Written Results**  
 Documentation -> Documentation6.txt 
 

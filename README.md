@@ -20,5 +20,5 @@ Located in the provided filed folder are the follwing:
 Code: Fully functional code is in Code folder  
 Run: Prog 1.java file  
 **Written Results**  
-Writen results: Documentation -> transcript.txt 
+Documentation -> transcript.txt 
 

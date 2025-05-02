@@ -1,4 +1,4 @@
-# Random Singleness 
+# Bulldog Strategy
 
 ## Purpose 
 The purpose of this assignment is to give you experience with the Strategy design pattern, and to further study how well AI tools can complete certain programming tasks.

@@ -17,7 +17,7 @@ Located in the provided filed folder are the follwing:
 
 ## Results
 **Code Results**  
-Run: Prog 1.java  
+Run: Code -> Prog 1.java  
 **Written Results**  
 Documentation -> transcript.txt 
 

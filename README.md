@@ -10,7 +10,7 @@ The purpose of this assignment is to gain experience with the principles of sepa
 3. Integration into Bulldog. Change Bulldog to use your Model rather than a specific ArrayList of Players. {This is probably an easy task for the AI tool.) Then integrate the Scoreboard into your Bulldog GUI. Note that even if everything works, when you play two non-human Players against each other, the updates will happen so fast that you will probably only see the final score. BUT, if you play, say, a FifteenPlayer against a HumanPlayer, then the pauses while the HumanPlayer decides whether or not to continue will enable you to see changes at a more leisurely pace.
 4. Javadoc. All of your code should be documented in Javadoc style. For authorship credit, include something like, "Written by David Levine, with the assistance of Robby the Robot." Yes, it's probably easier to add that line by hand than to prompt for it - especially if you do so at the end of the assignment.  
   
-**Documentation**
+**Documentation**  
 Your "lab book" should include three sections, one for each step above (ignoring Step 4.) In each case, you should describe your initial prompts and evaluate how well the tool did - and how far you could get before it became "necessary" to finish the improvement by hand. When appropriate, you should include screen snipshots. Include at least one snipshot from Step 3, more if it helps the exposition. Finally present some general (and preliminary) conclusions about how well AI tools can help with design patterns and/or code mimickry.
 
 ## Result

@@ -17,7 +17,7 @@ Documentation -> Image1.png Image2.png
 **GUI Results**  
 Documentation -> Image3.png Image4.png Image5.png  
 **Code Results**  
-Run: BulldogGameGUI.java  
+Run: Run: Code -> BulldogGameGUI.java  
 **Written Results**  
 Documentation -> Documentation4.txt 
 

@@ -13,7 +13,7 @@ NOTE: No matter how close you do (or do not) come to making the UI match your sk
 
 ## Result
 **Sketches Results**  
-Documentation -> Image1.png Image2.png 
+Documentation -> Image1.png Image2.png  
 **GUI Results**  
 Documentation -> Image3.png Image4.png Image5.png  
 **Code Results**  
